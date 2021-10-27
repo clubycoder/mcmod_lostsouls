@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "lostsouls:block/soul_valley_portal_ns"
+    },
+    "axis=z": {
+      "model": "lostsouls:block/soul_valley_portal_ew"
+    }
+  }
+}
