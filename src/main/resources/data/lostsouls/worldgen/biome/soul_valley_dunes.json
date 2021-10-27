@@ -1,0 +1,48 @@
+{
+  "surface_builder": "minecraft:desert",
+  "depth": 0.125,
+  "scale": 0.05,
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "none",
+  "category": "desert",
+  "player_spawn_friendly": false,
+  "effects": {
+    "sky_color": 4206667,
+    "fog_color": 5984875,
+    "water_color": 3809840,
+    "water_fog_color": 3343663,
+    "grass_color": 3025202,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:dust"
+      },
+      "probability": 0
+    }
+  },
+  "starts": [],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:zombie",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [
+      "minecraft:lake_water"
+    ]
+  ]
+}

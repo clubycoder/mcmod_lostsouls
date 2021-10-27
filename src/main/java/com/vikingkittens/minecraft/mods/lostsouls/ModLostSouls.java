@@ -18,6 +18,8 @@ import software.bernie.geckolib3.GeckoLib;
 import com.vikingkittens.minecraft.mods.lostsouls.client.blocks.ClientInitBlocks;
 import com.vikingkittens.minecraft.mods.lostsouls.common.blocks.InitBlocks;
 import com.vikingkittens.minecraft.mods.lostsouls.common.blocks.ModBlocks;
+import com.vikingkittens.minecraft.mods.lostsouls.common.dimensions.InitDimensions;
+import com.vikingkittens.minecraft.mods.lostsouls.common.dimensions.biomes.InitBiomes;
 import com.vikingkittens.minecraft.mods.lostsouls.common.entities.InitEntities;
 import com.vikingkittens.minecraft.mods.lostsouls.common.items.InitItems;
 
@@ -35,6 +37,8 @@ public class ModLostSouls {
         InitBlocks.init(modEventBus);
         InitItems.init(modEventBus);
         InitEntities.init(modEventBus);
+        InitBiomes.init(modEventBus);
+        InitDimensions.init(modEventBus);
 
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::onSetup);
